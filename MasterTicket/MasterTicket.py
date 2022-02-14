@@ -1,8 +1,12 @@
 service_charge = 2
 ticket_price = 10
 ticket_remaining = 100
+
+
 def amount(num_of_ticket):
     return (ticket_price * num_of_ticket) + service_charge
+
+
 while ticket_remaining >= 1:
     print(f"There is {ticket_remaining} ticket left!")
     name = input("What's your name: ")
